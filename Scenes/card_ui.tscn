@@ -1,84 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://cyu4scd4me5lr"]
+[gd_scene load_steps=9 format=3 uid="uid://cyu4scd4me5lr"]
 
 [ext_resource type="Theme" uid="uid://bptwggp0w3l87" path="res://MainTheme.tres" id="1_xikgc"]
 [ext_resource type="Script" path="res://Scenes/card_ui.gd" id="2_0tqoo"]
+[ext_resource type="Script" path="res://Scenes/card_state_machine.gd" id="3_0jrxt"]
+[ext_resource type="Script" path="res://Scenes/CardState/card_base_state.gd" id="4_x2j1g"]
+[ext_resource type="Script" path="res://Scenes/CardState/card_clicked_state.gd" id="5_5m4ap"]
+[ext_resource type="Script" path="res://Scenes/CardState/card_dragging_state.gd" id="6_yso23"]
+[ext_resource type="Script" path="res://Scenes/CardState/card_released_state.gd" id="7_0kfts"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t626t"]
 size = Vector2(25, 30)
-
-[sub_resource type="CSharpScript" id="CSharpScript_q7yvo"]
-script/source = "using Godot;
-using System;
-using System.Collections.Generic;
-
-public partial class CardStateMachine : Node
-{
-    [Export] public NodePath initialStatePath;
-
-    private CardState _currentState;
-    private CardState _initialState;
-    private Dictionary<State, CardState> _states = new();
-
-    public override void _Ready()
-    {
-        _initialState = GetNode<CardState>(initialStatePath);
-    }
-    
-    private void Init(CardUi cardUi)
-    {
-        foreach (CardState child in GetChildren())
-        {
-            _states[child.state] = child;
-            child.OnTransitionRequested += OnTransitionRequested;
-            child.cardUi = cardUi;
-        }
-
-        _initialState = GetNode<CardState>(initialStatePath);
-        if (_initialState != null)
-        {
-            _initialState.Enter();
-            _currentState = _initialState;
-        }
-    }
-
-    private void OnInput(InputEvent inputEvent)
-    {
-        if (_currentState != null)
-        {
-            _currentState.OnInput(inputEvent);
-        }
-    }
-
-    private void OnGUIInput(InputEvent inputEvent)
-    {
-        if (_currentState != null)
-        {
-            _currentState.OnGuiInput(inputEvent);
-        }
-    }
-
-    private void OnMouseEntered()
-    {
-        if (_currentState != null)
-        {
-            _currentState.OnMouseEntered();
-        }
-    }
-
-    private void OnMouseExited()
-    {
-        if (_currentState != null)
-        {
-            _currentState.OnMouseExited();
-        }
-    }
-
-    private void OnTransitionRequested(CardState from, State to)
-    {
-        if(!from.Equals(_currentState) || !_states.ContainsKey(from)) return;
-    }
-}
-"
 
 [node name="CardUI" type="Control"]
 custom_minimum_size = Vector2(25, 30)
@@ -122,4 +53,16 @@ position = Vector2(12.5, 15)
 shape = SubResource("RectangleShape2D_t626t")
 
 [node name="CardStateMachine" type="Node" parent="."]
-script = SubResource("CSharpScript_q7yvo")
+script = ExtResource("3_0jrxt")
+
+[node name="CardBaseState" type="Node" parent="CardStateMachine"]
+script = ExtResource("4_x2j1g")
+
+[node name="CardClickedState" type="Node" parent="CardStateMachine"]
+script = ExtResource("5_5m4ap")
+
+[node name="CardDraggingState" type="Node" parent="CardStateMachine"]
+script = ExtResource("6_yso23")
+
+[node name="CardReleasedState" type="Node" parent="CardStateMachine"]
+script = ExtResource("7_0kfts")
