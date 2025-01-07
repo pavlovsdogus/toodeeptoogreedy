@@ -6,6 +6,6 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Scenes\CardState\" />
+    <Content Include="Scenes\CardState\card_state.gd" />
   </ItemGroup>
 </Project>
