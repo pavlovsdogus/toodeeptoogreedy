@@ -1,9 +1,138 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="26.2.14">
   <diagram name="Page-1" id="CRtTwh2yGp9zgA7lhSoe">
-    <mxGraphModel>
+    <mxGraphModel dx="2069" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="po70UdbI5g9XXJHEPzWd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-1" target="po70UdbI5g9XXJHEPzWd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-1" value="&lt;div&gt;Scene Opens&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-2" target="po70UdbI5g9XXJHEPzWd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-2" target="po70UdbI5g9XXJHEPzWd-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-2" value="pass player + player class to Draft Setup" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-4" target="po70UdbI5g9XXJHEPzWd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-4" value="&lt;div&gt;Build Drafters&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-6" target="po70UdbI5g9XXJHEPzWd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-6" target="po70UdbI5g9XXJHEPzWd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-6" value="Create Draft Table" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-9" target="po70UdbI5g9XXJHEPzWd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-9" value="&lt;div&gt;Assemble Packs for Drafter&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-11" value="Create Drafter view at table" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="820" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-13" target="po70UdbI5g9XXJHEPzWd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-13" target="po70UdbI5g9XXJHEPzWd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-13" value="Load Pack 1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="340" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-15" target="po70UdbI5g9XXJHEPzWd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-15" value="Pick a card" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-17" value="Pass Right" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-21" target="po70UdbI5g9XXJHEPzWd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-21" target="po70UdbI5g9XXJHEPzWd-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-21" value="DraftSystem" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-23" target="po70UdbI5g9XXJHEPzWd-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-23" target="po70UdbI5g9XXJHEPzWd-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-23" value="Player System" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-25" value="&lt;div&gt;Packs System&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-27" target="po70UdbI5g9XXJHEPzWd-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-27" target="po70UdbI5g9XXJHEPzWd-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-27" value="Load Pack 2" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-29" target="po70UdbI5g9XXJHEPzWd-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-29" value="Pick a card" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-31" value="&lt;div&gt;Pass Left&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-33" target="po70UdbI5g9XXJHEPzWd-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-33" target="po70UdbI5g9XXJHEPzWd-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-33" value="Load Pack 3" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="340" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-35" target="po70UdbI5g9XXJHEPzWd-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-35" value="&lt;div&gt;Pick a card&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-37" value="Pass Right" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="po70UdbI5g9XXJHEPzWd-39" target="po70UdbI5g9XXJHEPzWd-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-39" value="&lt;div&gt;NPC Drafter System&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-41" value="&lt;div&gt;NPC View System&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-43" value="Pile View System" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="po70UdbI5g9XXJHEPzWd-45" value="Pass Player + Deck to Run System" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
